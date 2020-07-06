@@ -21,6 +21,21 @@ body{
 	background: linear-gradient(to right, #304352, #d7d2cc);
 }
 
+.summary{
+	background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+.registersuccess{
+	background: linear-gradient(to right, #304352, #d7d2cc);
+}
+.registersuccess .container{
+	padding-top: 40vh;
+}
+.registersuccess .container a{
+	text-decoration: none;
+	font-weight: bold;
+	color:indigo;
+
+}
 
 input, button{
 	border: none;
@@ -131,7 +146,7 @@ button{
 	color: #000000;
 }
 
-.registerbutton, .loginbutton{
+.registerbutton, .loginbutton, .readmore{
 	margin-top: 15px;
 	text-align: center;
 	font-size: 14px;
@@ -141,7 +156,28 @@ button{
 	font-family: 'Comfortaa', cursive; 
 }
 
-.registerbutton:hover , .loginbutton:hover{
+.registerbutton:hover , .loginbutton:hover, .readmore:hover{
 	font-size: 14.5px;
 	color: #000000;
+}
+
+.summarybody{
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+	border-radius: 14px;
+	opacity: 0.7;
+	position: relative;
+	width: 560px;
+	padding: 50px 120px;
+}
+.summarybody p{
+	font-family: 'Josefin Slab', serif;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.container label{
+	font-family: 'Comfortaa', cursive; 
+	font
 }

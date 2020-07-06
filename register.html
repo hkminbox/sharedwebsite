@@ -13,21 +13,21 @@
 	<div class="transcontainer"></div>
 	<div class="container">
 		<div class="form">
-			<form>
+			<form method="post" action="registersuccess.html">
 				<h2>Sign Up</h2>
 				<label>
 					<span>Name</span>
-					<input type="text" name="name">
+					<input type="text" name="name" id="name">
 				</label>
 				<label>
 					<span>Email Address</span>
-					<input type="email" name="email">
+					<input type="text" name="email" id="email">
 				</label>
 				<label>
 					<span>Password</span>
-					<input type="password" name="password">
+					<input type="password" name="password" id="password">
 				</label>
-				<button class="submitregister register">Register</button>
+				<button type="submit" class="submitregister register" onclick="return check_valid();" value="register">Register</button>
 				<button type="button" class="loginbutton" onclick="loginPage();">Sign in instead</button>
 			</form>
 		</div>
