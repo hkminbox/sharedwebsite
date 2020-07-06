@@ -1,0 +1,147 @@
+*, *:before, *:after:{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 98%;
+	height: 98vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Comfortaa', cursive;
+}
+
+.login{
+	background: linear-gradient(to right, #525252, #3d72b4);
+}
+
+.register{
+	background: linear-gradient(to right, #304352, #d7d2cc);
+}
+
+
+input, button{
+	border: none;
+	outline: none;
+	background: none;
+}
+
+.transcontainer{
+	overflow: hidden;
+	position: relative;
+	width: 800px;
+	height: 550px;
+	background: #fff;
+	border-radius: 14px;
+	opacity: 0.8
+
+}
+.container{
+	overflow: hidden;
+	position: absolute;
+	width: 900px;
+	height: 550px;
+	border-radius: 14px;
+	/*background: #fff;*/
+
+}
+
+.form{
+	position: relative;
+	width: 640px;
+	height: 100%;
+	padding: 50px 120px;
+}
+
+h2{
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	/*background: -webkit-linear-gradient(left, #3d6cb9, #00fff0);
+  	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;*/
+}
+
+label{
+	display: block;
+	width: 260px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+label span{
+	font-size: 14px;
+	font-weight: 600;
+	color: #555f75;
+	text-transform: uppercase;
+}
+input{
+	display: block;
+	width: 100%;
+	margin-top: 15px;
+	font-size: 16px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(109,93,93,0.4);
+	text-align: center;
+	font-family: 'Comfortaa', cursive; 
+}
+
+button{
+	display: block;
+	margin: 0 auto;
+	width: 260px;
+	height:36px;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 15px;
+	cursor:pointer;
+}
+
+.submitlogin, .submitregister{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-family: 'Comfortaa', cursive; 
+	font-weight: 600;
+}
+
+.submitlogin:hover{
+	font-size: 15.4px;
+	background: -webkit-linear-gradient(left, #3d6cff, #00ffff);
+}
+.submitregister:hover{
+	font-size: 15.4px;
+	background: linear-gradient(to right, #403a3f, #be5896);
+}
+
+.resetpass{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	color:#0c0101;
+	cursor: pointer;
+	font-family: 'Comfortaa', cursive; 
+}
+
+.resetpass:hover{
+	font-size: 14.5px;
+	color: #000000;
+}
+
+.registerbutton, .loginbutton{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	color:#0c0101;
+	cursor: pointer;
+	font-family: 'Comfortaa', cursive; 
+}
+
+.registerbutton:hover , .loginbutton:hover{
+	font-size: 14.5px;
+	color: #000000;
+}
