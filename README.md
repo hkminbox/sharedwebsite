@@ -1,2 +1,2 @@
 # sharedwebsite
-Design a media website  to share photos, information, useful books etc. Members can register and login to the system.
+Media website front-end designed using HTML, CSS and Javascript to share photos, information, useful books etc. Members can register and login to the system.
